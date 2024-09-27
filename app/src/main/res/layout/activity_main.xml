@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Dress Type Selection using CheckBoxes -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dress_type" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCasual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/casual_dress" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formal_dress" />
+
+    <!-- Size Selection using RadioButtons -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_size" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioButtonSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/small" />
+        <RadioButton
+            android:id="@+id/radioButtonMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medium" />
+        <RadioButton
+            android:id="@+id/radioButtonLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/large" />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rate_the_dress" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quantity" />
+
+    <SeekBar
+        android:id="@+id/seekBarQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10" />
+
+    <TextView
+        android:id="@+id/quantityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity: 1" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_delivery" />
+
+    <Switch
+        android:id="@+id/switchDelivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Delivery" />
+
+    <!-- Button to go to the next activity -->
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
+

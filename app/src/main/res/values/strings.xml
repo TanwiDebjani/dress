@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dress Shop</string>
+    <string name="welcome_message">Welcome to Dress Shop!</string>
+    <string name="dress_type">Choose Dress Type:</string>
+    <string name="casual_dress">Casual Dress</string>
+    <string name="formal_dress">Formal Dress</string>
+    <string name="select_size">Select Size:</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="quantity">Select Quantity:</string>
+    <string name="rate_the_dress">Rate the Dress:</string>
+    <string name="home_delivery">Home Delivery</string>
+    <string name="next">Next</string>
+    <string name="order_summary">Order Summary</string>
+</resources>
